@@ -1,0 +1,84 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: grid;
+    color: whitesmoke;
+    background-color: 4F5D75;
+    width: 100%;
+    height: 10%;
+    grid-template-columns: 30% 30% 30%;
+}
+body {
+    background-color: 2D3142;
+    padding-top: 0%;
+    margin: auto;
+}
+
+main {
+    color: 545454;
+    background-color: BFC0C0;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    color: F45D01;
+}
+
+img {
+    height: 300px;
+    width:auto;
+    border-radius: 30%;
+    max-width: 100%;
+    margin: 10px;
+}
+
+.horizontal {
+    height: 300px;
+    width: auto;
+}
+
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+nav {
+    display:flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content:space-evenly;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+<!-- 
+2D3142 gunmetal
+4F5D75 Payne's gray (blueish)
+BFC0C0 silver
+FFFFFF white
+FAAE80 sandy brown
+F45D01 Persimmon (Orange)
+-->
